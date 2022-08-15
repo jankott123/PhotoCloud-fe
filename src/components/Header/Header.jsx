@@ -23,7 +23,7 @@ class Header extends Component {
   logOut = async () => {
     await hasAccess();
 
-    fetch("http://localhost:8888/oopphoto/cloudphoto/www/logout", {
+    fetch(process.env.REACT_APP_APISERVER + "logout", {
       method: "POST",
       credentials: "include",
     })
