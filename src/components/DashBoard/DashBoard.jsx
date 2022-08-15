@@ -80,13 +80,10 @@ class DashBoard extends Component {
       .then((res) => res.json())
       .then(
         (result) => {
-          console.log(result);
           this.setState({
             items: result.filename,
             albums: result.albumname,
           });
-
-          console.log(this.state);
         },
 
         (error) => {

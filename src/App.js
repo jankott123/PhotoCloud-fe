@@ -1,23 +1,19 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import React, { Component } from "react";
-import { render } from "react-dom";
 import DashBoard from "./components/DashBoard/DashBoard";
 import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Header from "./components/Header/Header";
 import Header2 from "./components/Header/Header2";
-import AppendHead from "react-append-head";
 import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Redirect,
+ 
 } from "react-router-dom";
-import Cookies from "react-cookie";
 import { PrivateRoute } from "./services/privateroute";
-import MetaTags from "react-meta-tags";
 
 class App extends Component {
   constructor(props) {
@@ -25,8 +21,6 @@ class App extends Component {
   }
 
   state = {
-   
-
     items: [],
     error: null,
     isLoaded: false,
@@ -39,7 +33,6 @@ class App extends Component {
     const index = counters.indexOf(counter);
     counters[index] = { ...counter };
     counters[index].value++;
-    console.log(this.state.counters[0]);
     this.setState({ counters });
   };
 
@@ -68,7 +61,6 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-       
         <div>
           <Router>
             <Switch>
@@ -102,16 +94,9 @@ class App extends Component {
           </Router>
         </div>
 
-       
-          <div class="footer">
-            {console.log(this.state.year)}
-
-            <small>
-              Copyright © {this.state.year} PhotoStorage studio{" "}
-            </small>
-          </div>
-      
-     
+        <div class="footer">
+          <small>Copyright © {this.state.year} PhotoStorage studio </small>
+        </div>
       </React.Fragment>
     );
   }

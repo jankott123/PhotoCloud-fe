@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Cookies from "universal-cookie";
-import Authorization, { hasAccess } from "../../services/Authorization";
+import   { hasAccess } from "../../services/Authorization";
 import { withRouter } from "react-router-dom";
 import "./Header.css";
 
@@ -65,9 +65,9 @@ class Header extends Component {
             <small>{this.state.username}</small>
           </div>
 
-          <div class="row">
+          <div className="row">
             <div class={this.state.showLogoutMobile}>
-              <button type="button" class="btn btn-secondary btn-sm">
+              <button type="button" className="btn btn-secondary btn-sm">
                 Settings
               </button>{" "}
               |{" "}
@@ -105,14 +105,14 @@ class Header extends Component {
 
               <div class={this.state.showLogout}>
                 <div class="col-12">
-                  <button type="button" class="btn btn-secondary btn-sm">
+                  <button type="button" className="btn btn-secondary btn-sm">
                     Settings
                   </button>{" "}
                   |{" "}
                   <button
                     type="button"
                     onClick={() => this.logOut()}
-                    class="btn btn-success btn-sm"
+                    className="btn btn-success btn-sm"
                   >
                     Log out
                   </button>

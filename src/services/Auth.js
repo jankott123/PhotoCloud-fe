@@ -6,9 +6,6 @@ class Auth extends Component {
   }
 
   login = (userData) => {
-    //http://localhost:8888/oopphoto/cloudphoto/www/register
-    //http://hostingdb.g6.cz/www/loginjwt
-    //http://localhost:8888/photostorage-BE/www/loginjwt
     let BaseURL = process.env.REACT_APP_APISERVER+"loginjwt";
 
     console.log(JSON.stringify(userData));
