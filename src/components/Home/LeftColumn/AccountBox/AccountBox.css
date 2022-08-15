@@ -1,0 +1,82 @@
+@media (min-width: 576px) {
+  .accountBoxBackground {
+    border-radius: 8px;
+    box-shadow: rgba(95, 96, 97, 0.24) 0px 3px 8px;
+    background-color: rgba(0, 128, 255, 0.9);
+    width: 75%;
+    padding: 30px;
+    margin-left: 0%;
+  }
+
+  .joinus {
+    padding-right: 3%;
+  }
+
+  .accBackground {
+    border-radius: 8px;
+    box-shadow: rgba(108, 186, 255, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 7px;
+  }
+
+  .signUp {
+    color: white;
+    background-color: #00adb5;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.1em;
+  }
+
+  .logIn {
+    color: white;
+    background-color: green;
+    font-size: 1.1em;
+    padding: 8px;
+    border: solid;
+    border-radius: 8px;
+    border-color: green;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .accountBoxBackground {
+    border-radius: 8px;
+    box-shadow: rgba(108, 186, 255, 0.24) 0px 3px 8px;
+    background-color: rgba(0, 173, 181, 0.12);
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 0px;
+  }
+
+  .joinus {
+    padding-right: 5%;
+  }
+
+  .accBackground {
+    border-radius: 8px;
+    box-shadow: rgba(108, 186, 255, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 7px;
+  }
+
+  .signUp {
+    color: white;
+    margin-left: 20px;
+    background-color: #00adb5;
+    padding: 10px;
+    border-radius: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+
+
+.gray {
+  color: rgb(95, 90, 90);
+  padding-left: 6px;
+}

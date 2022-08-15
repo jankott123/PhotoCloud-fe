@@ -1,0 +1,114 @@
+@media (min-width: 576px) {
+  .cont {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+  }
+
+  .cont button {
+    color: white;
+  }
+
+  .basicPhoto {
+    height: 250px;
+    width: 250px;
+  }
+
+  .deletePhoto {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(168, 163, 163);
+    padding: 10px 20px;
+    border-radius: 3px;
+    opacity: 0.8;
+    color: white;
+    display: none;
+  }
+
+  .deletePhotoVisible {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00adb5;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+    opacity: 0.8;
+    color: white;
+  }
+
+  .downloadPhotoVisible {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00adb5;
+    padding: 2px 12px 2px 12px;
+    color: white;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-top: 3.5rem;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+  .cont {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+  }
+
+  .basicPhoto {
+    height: 160px;
+    width: 160px;
+  }
+
+  .cont button {
+    color: white;
+  }
+
+  .deletePhoto  {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(168, 163, 163);
+    padding: 10px 20px;
+    border-radius: 3px;
+    opacity: 0.8;
+    color: white;
+    display: none;
+  }
+
+  .deletePhotoVisible {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00adb5;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+    opacity: 0.8;
+    color: white;
+  }
+
+  .downloadPhotoVisible {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00adb5;
+    padding: 2px 12px 2px 12px;
+    color: white;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-top: 3.5rem;
+  }
+
+
+}

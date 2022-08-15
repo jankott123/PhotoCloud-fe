@@ -1,0 +1,103 @@
+@media (min-width: 576px) {
+  .hideDesktop {
+    display: none;
+  }
+
+  .backgroundUser2 {
+    border-radius: 6px;
+    color: #393e46;
+    cursor: pointer;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+  }
+
+
+  .header {
+    display: flex;
+    padding-top: 1%;
+  }
+
+  .nadpisWelcome {
+    margin-bottom: 6px;
+  }
+
+  .cloudImage {
+    width: 40px;
+    height: 40px;
+    margin-left: 11px;
+    margin-top: 5px;
+  }
+
+  .backgroundUser {
+    cursor: pointer;
+    padding-top: 5px;
+  }
+
+  .backgroundUser:hover {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #eeeeee;
+  }
+
+  .profile {
+    height: 35px;
+    width: 35px;
+  }
+
+  .line {
+    margin: 0px;
+  }
+
+  .logout {
+    position: relative;
+    padding-top: 12px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    margin-left: 4px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .mobileHide {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 2.5%;
+    margin-bottom: 2px !important;
+  }
+
+  .cloudImage {
+    width: 35px;
+    height: 35px;
+    margin-left: 38%;
+    margin-top: -2px;
+  }
+
+  .profile {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+  }
+
+  .line {
+    margin: 0px;
+  }
+
+  .logout {
+    padding: 2px 7px 2px 7px;
+
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-left: 15px;
+    color: white;
+    background-color: #222831;
+    font-size: 15px;
+  }
+}
