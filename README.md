@@ -16,3 +16,6 @@ Photo storage is modern web application for storing and sharing photos with othe
 6. Install the dependencies by executing the follwing command: $ npm install.
 7. To run the React project. execute $npm start. and it will point to the localhost server with the port 3000.
 8. Enter the IP Address: http://localhost:3000 on a web browser and use the application. make sure that your backend api is running.
+
+
+* text
