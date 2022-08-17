@@ -205,7 +205,7 @@ class DashBoard extends Component {
     return (
       <div>
         <div class="row">
-          <div class="col-sm-7 col-12 ">
+          <div class="col-sm-7 col-12">
             <UploadForm refresh={this.addPhoto} options={this.state.albums} />
           </div>
 
@@ -231,7 +231,7 @@ class DashBoard extends Component {
           viewUserForm={this.viewUserForm}
         />
         <AddAlbum show={this.state.show} album={this.addAlbum} /> <br></br>
-        {typeof this.state.items !== "undefined" && (
+        {typeof this.state.items !== "undefined" && this.state.items !== null && (
           <div class="row">
             {this.state.items.map((item) => (
               <div class="col-sm-3 col-6 ">
