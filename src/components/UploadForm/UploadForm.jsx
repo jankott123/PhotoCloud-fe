@@ -9,7 +9,7 @@ class UploadForm extends Component {
 
   render() {
     return (
-      <div class="row fileUpload">
+      <div class="fileUpload">
         <form
           class="d-flex justify-content-start "
           onSubmit={this.props.refresh}
