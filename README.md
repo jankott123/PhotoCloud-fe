@@ -1,6 +1,7 @@
 # Photo storage - frontend
 
 Frontend part of web application for backuping photos on Cloud. 
+<img width="1726" alt="Snímek obrazovky 2022-08-17 v 13 34 41" src="https://user-images.githubusercontent.com/32278267/185339551-4748f2de-4f1c-41cc-be58-5e61af850b16.png">
 
 ## Project description
 
