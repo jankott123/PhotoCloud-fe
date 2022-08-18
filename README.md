@@ -18,4 +18,3 @@ Photo storage is modern web application for storing and sharing photos with othe
 8. Enter the IP Address: http://localhost:3000 on a web browser and use the application. make sure that your backend api is running.
 
 
-* text
