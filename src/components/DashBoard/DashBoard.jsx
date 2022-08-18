@@ -232,7 +232,7 @@ class DashBoard extends Component {
         />
         <AddAlbum show={this.state.show} album={this.addAlbum} /> <br></br>
         {typeof this.state.items !== "undefined" && this.state.items !== null && (
-          <div class="row">
+          <div class="row mt-25">
             {this.state.items.map((item) => (
               <div class="col-sm-3 col-6 ">
                 {" "}

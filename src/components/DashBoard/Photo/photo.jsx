@@ -34,7 +34,7 @@ class Photo extends Component {
           onTouchStart={(e) => this.onMouse()}
         >
           <img
-            className="img-fluid basicPhoto img-thumbnail"
+            className="img-fluid basicPhoto"
             src={
               process.env.REACT_APP_APISERVER + "view/" +
               this.props.filename
