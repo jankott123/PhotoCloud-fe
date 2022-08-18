@@ -1,11 +1,15 @@
 # Photo storage - frontend
 
 Frontend part of web application for backuping photos on Cloud. 
-<img width="1726" alt="Snímek obrazovky 2022-08-17 v 13 34 41" src="https://user-images.githubusercontent.com/32278267/185339551-4748f2de-4f1c-41cc-be58-5e61af850b16.png">
 
 ## Project description
 
 Photo storage is modern web application for storing and sharing photos with other people. Frontend part is written in React. Backend Api's are written in PHP. Photos are stored on google cloud buckets.
+
+### Screenshots
+
+<img width="1646" alt="Snímek obrazovky 2022-08-17 v 13 34 41" src="https://user-images.githubusercontent.com/32278267/185340006-3732f091-387e-43b5-a71e-eae1a35f4320.png">
+
 
 ## How to run project
 
