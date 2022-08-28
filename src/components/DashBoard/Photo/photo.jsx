@@ -11,6 +11,7 @@ class Photo extends Component {
       promise: "",
       class: "deletePhoto",
       class2: "downloadPhoto",
+      loaded: false,
     };
   }
 
@@ -24,6 +25,13 @@ class Photo extends Component {
     this.setState({ class2: "downloadPhoto" });
   };
 
+
+  photoLoad = () => {
+    this.setState({
+      loaded:true,
+    })
+  }
+
   render() {
     return (
       <div>
@@ -33,15 +41,18 @@ class Photo extends Component {
           onMouseEnter={(e) => this.onMouse()}
           onTouchStart={(e) => this.onMouse()}
         >
+          
           <img
             className="img-fluid basicPhoto"
+            style={this.state.loaded ? { display: 'inline-block' } : { display: 'none' }}
             src={
               process.env.REACT_APP_APISERVER + "view/" +
               this.props.filename
             }
+            onLoad={this.photoLoad}
             alt={this.props.filename}
             onDoubleClick={() => this.props.fullsize(this.props.filename)}
-          ></img>
+          ></img> 
 
           <div
             className={this.state.class}
@@ -59,6 +70,7 @@ class Photo extends Component {
           </div>
           <div> </div>
         </div>
+        {console.log(this.state.loaded)}
       </div>
     );
   }
